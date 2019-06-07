@@ -1,24 +1,39 @@
 // Navigation code here
 
 .navigation{
-    text-align: center;
+    .centerText();
 }
+@media @phone{
+    .navigation{
+        text-align: center;
+    }
+}
+
 
 .topNavTitle{
     font-size: 4rem;
     margin-bottom: 2rem;
 }
 
+
+
 .topNavBar{
     display: flex;
     justify-content: center;
-    justify-content: space-between;
-    padding: 0 30rem 0 30rem;
+    // padding: 0 30rem 0 30rem;
     font-size: 2rem;
 }
+
 
 .topNavBar a{
     text-decoration: none;
     color: black;
     margin-bottom: 15px;
+    margin-left: 2rem;
+}
+
+@media @phone{
+.topNavImg{
+   width: 100%;
+}
 }
